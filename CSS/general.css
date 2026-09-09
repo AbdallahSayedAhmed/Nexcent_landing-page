@@ -1,0 +1,124 @@
+/* 
+  ---- 01 Typography System ----
+  -Font sizes (px)
+  -Heading:
+    -H1: 64
+    -H2: 36
+    -H3: 28
+    -H4: 20
+
+  -Paragraph:
+    Regular/Medium:
+      -P1: 18
+      -P2: 16
+      -P3: 14
+      -P4: 12
+
+
+  -Line heights:
+    -Heading:
+      -H1: 76
+      -H2: 44
+      -H3: 36
+      -H4: 28
+
+    -Paragraph:
+      Regular/Medium:
+        -P1: 28
+        -P2: 24
+        -P3: 20
+        -P4: 16
+
+  -Font weights:
+    -Regular: 400
+    -Medium: 500 
+    -Semi-bold: 600 
+    -Bold: 700
+
+  ---- 02 Colors ----
+  - Primary color: #28CB8B
+  - Secondary color: #263238
+  - Info: #2194f3
+
+  - Neutral colors:
+    - Black: #263238
+    - D_Grey: #4D4D4D
+    - Grey: #717171
+    - L_Grey: #89939E
+    - Grey-blue: #ABBED1
+    - Silver: #F5F7FA
+    - White: #FFFFFF
+
+  - Shades:
+    - Shade1 (10%): #43A046
+    - Shade2 (20%): #388E3B
+    - Shade3 (30%): #237D31
+    - Shade4 (40%): #1B5E1F
+    - Shade5 (50%): #103E13
+  
+
+  - Tints:
+    - Tint1 (10%): #66BB69
+    - Tint2 (20%): #81C784
+    - Tint3 (30%): #A5D6A7
+    - Tint4 (40%): #C8E6C9
+    - Tint5 (50%): #E8F5E9
+
+  - Action colors:
+    - Success: #2E7D31
+    - Warning: #FBC02D
+    - Error: #E53835
+
+  ---- 03 Shadows ----
+  ---- 04 Border-Radius ----
+  Default: 4px or 0.4rem
+  */
+
+:root {
+  --primary-color: #28cb8b;
+  --secondary-color: #263238;
+  --info-color: #2194f3;
+  --10-tints-color: #66bb69;
+  --20-tints-color: #81c784;
+  --30-tints-color: #a5d6a7;
+  --40-tints-color: #c8e6c9;
+  --50-tints-color: #e8f5e9;
+  --10-shades-color: #43a046;
+  --20-shades-color: #388e3b;
+  --30-shades-color: #237d31;
+  --40-shades-color: #1b5e1f;
+  --50-shades-color: #103e13;
+  --black-color: #263238;
+  --dark-grey-color: #4d4d4d;
+  --grey-color: #717171;
+  --light-grey-color: #89939e;
+  --grey-blue-color: #abbed1;
+  --silver-color: #f5f7fa;
+  --white-color: #ffffff;
+  --success-color: #2e7d31;
+  --warning-color: #fbc02d;
+  --error-color: #e53835;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  /* Does Not work on Safari */
+  /* scroll-behavior: smooth; */
+
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
+}
