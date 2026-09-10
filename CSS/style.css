@@ -24,6 +24,10 @@
   gap: 1.6rem;
 }
 
+.main-nav-list {
+  gap: 5rem;
+}
+
 .main-nav-link:link,
 .main-nav-link:visited,
 .submit-nav-link:link,
